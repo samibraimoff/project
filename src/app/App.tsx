@@ -1,10 +1,11 @@
 import { Route, Routes } from "react-router-dom";
-import { MainPage } from "./pages/MainPage/MainPageAsync";
-import { AboutPage } from "./pages/AboutPage/AboutPageAsync";
 import { Link } from "react-router-dom";
+
 import "./styles/index.scss";
-import { useTheme } from "./theme/useTheme";
-import { classNames } from "./helpers/classNames/classNames";
+import { MainPageAsync as MainPage } from "pages/MainPage";
+import { AboutPageAsync as AboutPage } from "pages/AboutPage";
+import { useTheme } from "app/providers/theme";
+import { classNames } from "shared/lib";
 
 export function App() {
   const { theme, toggleTheme } = useTheme();
