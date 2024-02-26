@@ -1,6 +1,5 @@
 import { useTranslation } from 'react-i18next'
 import { Button, ThemeButton } from 'shared/ui/Button/Button'
-import styles from './LangSwitcher.module.scss'
 
 export const LangSwitcher = () => {
   const { t, i18n } = useTranslation()
@@ -10,7 +9,6 @@ export const LangSwitcher = () => {
   return (
       <Button
           onClick={toggleLng}
-          classes={styles.langSwitcher}
           theme={ThemeButton.CLEAR}
     >
           {t('translate')}
