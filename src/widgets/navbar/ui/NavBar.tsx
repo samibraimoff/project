@@ -10,7 +10,7 @@ interface NavBarProps {
 export function NavBar ({ classes }: NavBarProps) {
   const { t } = useTranslation()
   return (
-      <div className={classNames(styles.navbar, {}, [classes as string])}>
+      <div className={classNames(styles.navbar, {}, [classes!])}>
           <div className={styles.links}>
               <AppLink
                   to="/"

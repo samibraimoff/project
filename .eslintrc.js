@@ -3,7 +3,10 @@ module.exports = {
     browser: true,
     es2021: true,
   },
-  extends: ["standard-with-typescript", "plugin:react/recommended"],
+  extends: [
+    "standard-with-typescript", 
+    "plugin:react/recommended"
+  ],
   overrides: [
     {
       env: {
@@ -27,7 +30,7 @@ module.exports = {
     "react/jsx-indent-props": [2,4],
     "indent": "off",
     "@typescript-eslint/indent": "error",
-    "react/jsx-filename-extension": [2, {extensions: ['.js', '.ts', '.tsx']}],
+    "react/jsx-filename-extension": [2, { extensions: ['.js', '.ts', '.tsx'] }],
     "import/no-unresolved": "off",
     "import/prefer-default-export": "off",
     "no-unused-vars": "warn",
@@ -38,6 +41,11 @@ module.exports = {
     "@typescript-eslint/strict-boolean-expressions": "warn",
     "@typescript-eslint/explicit-function-return-type": "off",
     "react/no-deprecated": "off",
-    "import/extensions": "off"
+    "import/extensions": "off",
+    "react/jsx-props-no-spreading": "off",
+    '@typescript-eslint/no-non-null-assertion': 'warn'
   },
+  globals: {
+    IS_DEV: true
+  }
 };
