@@ -7,7 +7,7 @@ export function AppRouter() {
     <div className="page-wrapper">
       <Routes>
         {Object.values(routeConfig).map(({ path, element }) => (
-          <Route path={path} element={element} />
+          <Route key={path} path={path} element={element} />
         ))}
       </Routes>
     </div>
