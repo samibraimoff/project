@@ -10,19 +10,19 @@ interface NavBarProps {
 export function NavBar ({ classes }: NavBarProps) {
   const { t } = useTranslation()
   return (
-      <div className={classNames(styles.navbar, {}, [classes!])}>
-          <div className={styles.links}>
-              <AppLink
-                  to="/"
-                  theme={AppLinkTheme.PRIMARY}
-                  className={styles.mainLink}
+    <div className={classNames(styles.navbar, {}, [classes ?? ''])}>
+      <div className={styles.links}>
+        <AppLink
+          to="/"
+          theme={AppLinkTheme.PRIMARY}
+          className={styles.mainLink}
         >
-                  {t('mainPage')}
-              </AppLink>
-              <AppLink to="/about" theme={AppLinkTheme.PRIMARY}>
-                  {t('aboutPage')}
-              </AppLink>
-          </div>
+          {t('mainPage')}
+        </AppLink>
+        <AppLink to="/about" theme={AppLinkTheme.PRIMARY}>
+          {t('aboutPage')}
+        </AppLink>
       </div>
+    </div>
   )
 }

@@ -1,0 +1,36 @@
+{
+    "editor.fontSize": 18,
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "prettier.requireConfig": true,
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "Cascadia Code",
+    "editor.lineHeight": 1.6,
+    "terminal.integrated.fontFamily": "JetBrains Mono",
+    "eslint.run": "onSave",
+    "editor.codeActionsOnSave": {
+      
+      "source.fixAll.eslint": "explicit",
+      "source.fixAll.stylelint": "explicit"
+    },
+    "gitlens.graph.layout": "editor",
+    "notebook.formatOnSave.enabled": true,
+    "editor.formatOnSave": true,
+    "terminal.integrated.fontSize": 15,
+    "editor.semanticHighlighting.enabled": true,
+    "gitlens.ai.experimental.provider": "openai",
+    "gitlens.ai.experimental.openai.model": "gpt-3.5-turbo-1106",
+    "workbench.productIconTheme": "material-product-icons",
+    "workbench.iconTheme": "vscode-jetbrains-icon-theme-2023-dark",
+    "diffEditor.hideUnchangedRegions.enabled": true,
+    "debug.console.fontSize": 14,
+    "eslint.format.enable": true,
+    "eslint.experimental.useFlatConfig": true,
+    "files.autoSave": "afterDelay",
+    "[typescript]": {
+      "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[typescriptreact]": {
+      "editor.defaultFormatter": "vscode.typescript-language-features"
+    }
+  }
+  

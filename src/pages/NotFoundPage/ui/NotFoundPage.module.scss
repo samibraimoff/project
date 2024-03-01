@@ -1,0 +1,7 @@
+.pageNotFound {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: var(--font-l);
+    height: calc(100vh - var(--navbar-height));
+}

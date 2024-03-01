@@ -2,5 +2,7 @@
   "testText": "Тестовый текст",
   "translate": "En",
   "mainPage": "Главная страница",
-  "aboutPage": "О нас"
+  "aboutPage": "О нас",
+  "pageNotFound": "Страница не найдена"
+
 }

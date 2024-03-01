@@ -8,12 +8,12 @@ import { Sidebar } from 'widgets/sidebar'
 export function App () {
   const { theme } = useTheme()
   return (
-      <div className={classNames('app', {}, [theme])}>
-          <NavBar />
-          <div className="content">
-              <Sidebar />
-              <AppRouter />
-          </div>
+    <div className={classNames('app', {}, [theme])}>
+      <NavBar />
+      <div className="content">
+        <Sidebar />
+        <AppRouter />
       </div>
+    </div>
   )
 }

@@ -7,11 +7,11 @@ export const LangSwitcher = () => {
     void i18n.changeLanguage(i18n.language === 'en' ? 'ru' : 'en')
   }
   return (
-      <Button
-          onClick={toggleLng}
-          theme={ThemeButton.CLEAR}
+    <Button
+      onClick={toggleLng}
+      theme={ThemeButton.CLEAR}
     >
-          {t('translate')}
-      </Button>
+      {t('translate')}
+    </Button>
   )
 }

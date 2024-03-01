@@ -2,5 +2,6 @@
   "testText": "Test text",
   "translate": "Ru",
   "mainPage": "Main page",
-  "aboutPage": "About us"
+  "aboutPage": "About us",
+  "pageNotFound": "Page not found"
 }
