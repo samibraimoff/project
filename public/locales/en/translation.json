@@ -3,5 +3,7 @@
   "translate": "Ru",
   "mainPage": "Main page",
   "aboutPage": "About us",
-  "pageNotFound": "Page not found"
+  "pageNotFound": "Page not found",
+  "someThingWentWrong": "Something went wrong.",
+  "reloadPage": "Reload page"
 }

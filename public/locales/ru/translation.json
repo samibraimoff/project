@@ -3,6 +3,7 @@
   "translate": "En",
   "mainPage": "Главная страница",
   "aboutPage": "О нас",
-  "pageNotFound": "Страница не найдена"
-
+  "pageNotFound": "Страница не найдена",
+  "someThingWentWrong": "Произошла ошибка.",
+  "reloadPage": "Обновить страницу"
 }
