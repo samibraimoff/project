@@ -51,7 +51,8 @@ module.exports = {
     '@typescript-eslint/semi': 'off',
     '@typescript-eslint/member-delimiter-style': 'off',
     '@typescript-eslint/no-floating-promises': 'off',
-    '@typescript-eslint/strict-boolean-expressions': 'off'
+    '@typescript-eslint/strict-boolean-expressions': 'off',
+    'max-len': ['error', {ignoreComments: true, code: 120}]
     },
     settings: {
       react: {
